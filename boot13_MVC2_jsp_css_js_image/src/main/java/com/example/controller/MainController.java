@@ -9,6 +9,7 @@ public class MainController {
 	@GetMapping("/")
 	public String main() {
 		System.out.println("/ 주소 요청///////");
+		System.out.println("/ 주소 요청///////111111111111");
 		return "main";
 	}
 	@GetMapping("/loginForm")
